@@ -62,6 +62,8 @@ NOTICE: Your Jellyfin instance needs to be reachable over HTTPS because Stremio 
 - **Audio Transcoding Mode** (default: Adaptive) - Adaptive copies Opus/EAC3/AAC when supported and transcodes unsupported audio; Force Transcode always re-encodes to AAC; No Transcode never requests audio transcoding
 - **Max Video Bitrate** - Maximum video bitrate in Mbps (10-200, default: 120)
 
+Note: This version's Adaptive transcode mode was tuned for a Hisense C2 Ultra projector running VIDAA OS with Stremio Lite.
+
 ### Public Base URL
 
 If your Jellyfin server is behind a reverse proxy, Cloudflare Tunnel, or Tailscale Funnel, set the public HTTPS URL here so Stremio can reach it.
@@ -94,3 +96,9 @@ Served at http://localhost:5173/jelliopp/. All API calls are mocked with MSW; th
 - Jellyfin 12.0.0+
 - Stremio (any platform)
 - HTTPS access to Jellyfin (required by Stremio)
+
+## Legal Notice
+
+Jellio+++ is intended for streaming media from Jellyfin libraries that you own or are otherwise legally authorized to access. Users are responsible for complying with all applicable laws, license terms, and service terms in their jurisdiction.
+
+This project is an unofficial community plugin and is not affiliated with, endorsed by, or sponsored by Jellyfin, Stremio, or their respective maintainers.
