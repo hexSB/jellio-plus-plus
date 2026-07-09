@@ -62,6 +62,8 @@ NOTICE: Your Jellyfin instance needs to be reachable over HTTPS because Stremio 
 - **Audio Transcoding Mode** (default: Adaptive) - Adaptive copies Opus/EAC3/AAC when supported and transcodes unsupported audio; Force Transcode always re-encodes to AAC; No Transcode never requests audio transcoding
 - **Max Video Bitrate** - Maximum video bitrate in Mbps (10-200, default: 120)
 
+Note: This version's Adaptive transcode mode was tuned for a Hisense C2 Ultra projector running VIDAA OS with Stremio Lite.
+
 ### Public Base URL
 
 If your Jellyfin server is behind a reverse proxy, Cloudflare Tunnel, or Tailscale Funnel, set the public HTTPS URL here so Stremio can reach it.
