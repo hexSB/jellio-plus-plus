@@ -94,3 +94,9 @@ Served at http://localhost:5173/jelliopp/. All API calls are mocked with MSW; th
 - Jellyfin 12.0.0+
 - Stremio (any platform)
 - HTTPS access to Jellyfin (required by Stremio)
+
+## Legal Notice
+
+Jellio+++ is intended for streaming media from Jellyfin libraries that you own or are otherwise legally authorized to access. Users are responsible for complying with all applicable laws, license terms, and service terms in their jurisdiction.
+
+This project is an unofficial community plugin and is not affiliated with, endorsed by, or sponsored by Jellyfin, Stremio, or their respective maintainers.
